@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_list_items_simple_items",
+  "info": {
+    "displayName": "Simple item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "unique": false,
+      "required": true,
+      "default": "Item"
+    },
+    "link": {
+      "type": "string"
+    },
+    "thumbnail": {
+      "type": "string"
+    },
+    "domain": {
+      "type": "customField",
+      "options": [
+        "WHEEL",
+        "BRAKE",
+        "FRAME"
+      ],
+      "required": true,
+      "customField": "plugin::multi-select.multi-select"
+    },
+    "category": {
+      "type": "customField",
+      "options": [
+        "REPAIR",
+        "CARE"
+      ],
+      "required": true,
+      "customField": "plugin::multi-select.multi-select"
+    }
+  }
+}

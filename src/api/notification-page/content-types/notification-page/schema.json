@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "notification_pages",
+  "info": {
+    "singularName": "notification-page",
+    "pluralName": "notification-pages",
+    "displayName": "Notification page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "startup",
+        "theft",
+        "messaging"
+      ]
+    }
+  }
+}

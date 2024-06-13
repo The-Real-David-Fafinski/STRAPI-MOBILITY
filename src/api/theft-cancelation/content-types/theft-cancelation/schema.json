@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "theft_cancelations",
+  "info": {
+    "singularName": "theft-cancelation",
+    "pluralName": "theft-cancelations",
+    "displayName": "Theft cancelation"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "reasons": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "theft.reasons"
+    }
+  }
+}
